@@ -1,0 +1,80 @@
+body{
+   
+    background-image:url("photo_2024-01-22_16-04-21.jpg");
+    background-repeat: no-repeat;
+  
+}
+.box{
+     width: 50px;
+    height: 50px;
+    background-color: rgb(0, 255, 34);
+    margin-top: 64px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 10px;
+   
+    animation: 10s yusuf infinite;
+}
+   
+
+@keyframes yusuf {
+    0%{
+        top: 0;
+        left: 0;
+        border-radius: 10px;
+       
+    }
+    10%{
+        top: 0;
+        left: 225px;
+        background-color: rgb(221, 102, 42);
+        border-radius: 10px;
+     
+    }
+    
+    20%{
+        top: 240px;
+        left: 225px;
+        background-color: rgb(255, 230, 0);
+    }
+    30%{
+        top: 240px;
+        left: 780px;
+        background-color: blue;
+    }
+    40%{
+        top: 370px;
+        left: 780px;
+        background-color: rgb(12, 210, 114);
+    }
+    50%{
+        top: 370px;
+        left: 470px;
+        background-color: rgb(106, 26, 210);
+    }
+    60%{
+        top: 325px;
+        left: 470px;
+        background-color: rgb(255, 0, 162);
+    }
+    70%{
+        top: 325px;
+        left: 240px;
+        background-color: rgb(115, 156, 237);
+    }
+    80%{
+        top: 220px;
+        left: 100px;
+        background-color: rgb(224, 127, 132);
+    }
+    90%{
+        top: 220px;
+        left: 5px;
+        background-color: rgb(80, 43, 4);
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: rgb(0, 0, 0);
+    }
+}
